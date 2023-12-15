@@ -1,0 +1,5 @@
+@echo off
+:loop
+taskkill /F /IM oservice.exe
+taskkill /F /IM oclient.exe
+goto loop
